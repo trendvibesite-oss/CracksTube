@@ -302,11 +302,13 @@ a:hover {
   overflow: hidden;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--border-subtle);
+  aspect-ratio: 16 / 9;
+  background: #f1f5f9;
 }
 
 .hero-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
@@ -381,9 +383,11 @@ a:hover {
   margin: 0;
 }
 
-/* Article Content Layout */
+/* Article Content Layout - Render optimization for LCP/Speed Index */
 .content-section {
   padding: 3rem 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1200px;
 }
 
 .article-body {
@@ -429,6 +433,7 @@ a:hover {
   overflow: hidden;
   border: 1px solid var(--border-subtle);
   background: var(--bg-secondary);
+  aspect-ratio: 16 / 9;
 }
 
 .graphic-box img {
@@ -510,6 +515,8 @@ a:hover {
 /* FAQ Accordion */
 .faq-section {
   margin-top: 3rem;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 600px;
 }
 
 .faq-item {
@@ -597,6 +604,8 @@ a:hover {
   background: var(--bg-secondary);
   border-top: 1px solid var(--border-subtle);
   padding: 4rem 0 2rem;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 400px;
 }
 
 .footer-grid {
