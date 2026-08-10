@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Blogs & Culinary Guides - CracksTube</title>
+  <meta name="description" content="Browse Food blogs, culinary guides, authentic dessert reviews, and recipes published on CracksTube.">
+  <link rel="canonical" href="http://crackstube.blog/food.html">
+  
   <!-- Site Icons & Favicons -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -13,12 +19,9 @@
   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
   <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Decor Blogs & Renovation Guides - CracksTube</title>
-  <meta name="description" content="Browse all Home Decor blogs, interior design articles, DIY renovation guides, and architecture posts on CracksTube.">
-  <link rel="canonical" href="http://crackstube.blog/home-decor.html">
+  <!-- Style Sheets -->
   <link rel="stylesheet" href="css/style.css">
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1818763HMF"></script>
   <script>
@@ -41,11 +44,11 @@
         <ul class="nav-menu">
           <li><a href="http://crackstube.blog/" class="nav-link">Home</a></li>
           <li><a href="blogs.html" class="nav-link">Blogs</a></li>
-          <li><a href="food.html" class="nav-link">Food</a></li>
+          <li><a href="food.html" class="nav-link active">Food</a></li>
           <li><a href="tech.html" class="nav-link">Tech</a></li>
           <li><a href="business.html" class="nav-link">Business</a></li>
           <li><a href="services.html" class="nav-link">Services</a></li>
-          <li><a href="home-decor.html" class="nav-link active">Home Decor</a></li>
+          <li><a href="home-decor.html" class="nav-link">Home Decor</a></li>
           <li><a href="healthcare.html" class="nav-link">Healthcare</a></li>
           <li><a href="about.html" class="nav-link">About Us</a></li>
           <li><a href="contact.html" class="nav-btn">Contact Us</a></li>
@@ -59,31 +62,46 @@
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Category Feed</span>
-        <h1>Home Decor Blogs</h1>
-        <p>All interior design, DIY renovation, architecture, and home improvement blogs published on CracksTube will appear here.</p>
+        <h1>Food & Culinary Blogs</h1>
+        <p>Explore authentic culinary guides, traditional desserts, recipes, and food culture blogs published on CracksTube.</p>
       </div>
 
       <!-- Search & Filter Bar -->
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:3rem; background:var(--bg-card); padding:1.25rem 1.75rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle); box-shadow:var(--shadow-card);">
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
           <a href="blogs.html" class="btn-secondary" style="padding:0.4rem 1rem; font-size:0.85rem;">All Blogs</a>
-          <a href="home-decor.html" class="btn-primary" style="padding:0.4rem 1rem; font-size:0.85rem;">Decor Feed</a>
+          <a href="food.html" class="btn-primary" style="padding:0.4rem 1rem; font-size:0.85rem;">Food Feed</a>
         </div>
         <div style="min-width:240px; flex-grow:1; max-width:320px;">
-          <input type="text" placeholder="Search decor blogs..." class="form-input" style="padding:0.5rem 1rem; font-size:0.9rem;">
+          <input type="text" placeholder="Search food blogs..." class="form-input" style="padding:0.5rem 1rem; font-size:0.9rem;">
         </div>
       </div>
 
       <!-- Category Blog Feed Container -->
-      <div id="decor-blog-feed">
-        <div style="text-align:center; padding:4rem 2rem; background:var(--bg-card); border-radius:var(--radius-lg); border:1px dashed var(--border-subtle); box-shadow:var(--shadow-card);">
-          <div style="font-size:3rem; margin-bottom:1rem;">&#127969;</div>
-          <h2 style="margin-top:0; color:var(--text-main);">No Home Decor Blogs Published Yet</h2>
-          <p style="color:var(--text-muted); max-width:500px; margin:0 auto 2rem;">
-            New interior design tips and DIY home renovation blogs submitted to this category will be displayed here upon publication.
-          </p>
-          <a href="contact.html" class="btn-primary">Submit First Decor Blog &#8594;</a>
-        </div>
+      <div id="food-blog-feed" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:2rem;">
+        
+        <!-- Published Blog Card: Anko Dango -->
+        <article class="category-card" style="padding:0; overflow:hidden;">
+          <div style="aspect-ratio:16/9; overflow:hidden; background:#e2e8f0;">
+            <a href="anko-dango-near-me.html">
+              <img src="images/anko-dango-guide.webp" alt="Anko Dango Near Me Featured Image" style="width:100%; height:100%; object-fit:cover; transition:transform 0.3s ease;" loading="lazy" decoding="async">
+            </a>
+          </div>
+          <div style="padding:1.5rem; display:flex; flex-direction:column; gap:0.75rem; flex-grow:1;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="background:rgba(234, 88, 12, 0.1); color:#ea580c; font-weight:700; font-size:0.75rem; padding:0.25rem 0.75rem; border-radius:var(--radius-full); text-transform:uppercase;">Food</span>
+              <span style="color:var(--text-muted); font-size:0.8rem;">Aug 10, 2026</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin:0; line-height:1.35;">
+              <a href="anko-dango-near-me.html" style="color:var(--text-main);">Anko Dango Near Me: How to Find the Real Thing</a>
+            </h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); margin:0; line-height:1.5;">
+              An honest, practical guide to what anko dango actually is, what separates a great one from a mediocre one, and how to track down a place near you making it properly.
+            </p>
+            <a href="anko-dango-near-me.html" style="color:var(--accent-cyan); font-weight:600; font-size:0.9rem; margin-top:auto;">Read Article &#8594;</a>
+          </div>
+        </article>
+
       </div>
     </div>
   </main>
@@ -91,7 +109,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-bottom">
-        <div>&copy; 2026 CracksTube Home Decor Blogs</div>
+        <div>&copy; 2026 CracksTube Food Blogs</div>
         <div><a href="http://crackstube.blog/">Return to Main Site</a></div>
       </div>
     </div>
