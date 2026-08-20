@@ -48,40 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Contact Form Handling - Instant WhatsApp Redirection (+91 8200194578)
+  // Backup event listener for contact form
   const contactForm = document.querySelector('#contactForm');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const name = document.querySelector('#name')?.value.trim() || '';
-      const email = document.querySelector('#email')?.value.trim() || '';
-      const subject = document.querySelector('#subject')?.value.trim() || 'General Inquiry';
-      const message = document.querySelector('#message')?.value.trim() || '';
-
-      if (!name || !email || !message) {
-        alert('Please fill out all required fields.');
-        return;
-      }
-
-      // Format WhatsApp Message
-      const waText = `*New Inquiry from CracksTube Website* 📬\n\n` +
-                     `*Name:* ${name}\n` +
-                     `*Email:* ${email}\n` +
-                     `*Inquiry Type:* ${subject}\n\n` +
-                     `*Message:* ${message}`;
-
-      const phone = '918200194578';
-      const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(waText)}`;
-
-      const feedback = document.querySelector('#formFeedback');
-      if (feedback) {
-        feedback.style.display = 'block';
-        feedback.innerHTML = '<div style="padding:1rem; background:rgba(37, 211, 102, 0.15); border:1px solid #25D366; color:#0e8838; font-weight:600; border-radius:8px; margin-bottom:1rem;">✅ Opening WhatsApp with your inquiry details... If not redirected automatically, <a href="' + waUrl + '" target="_blank" style="color:#0e8838; text-decoration:underline; font-weight:700;">Click Here to Open WhatsApp</a>.</div>';
-      }
-
-      // Direct Location Redirection (Works without Popup Blocker issues)
-      window.location.href = waUrl;
-    });
+  if (contactForm && typeof window.sendToWhatsApp === 'function') {
+    contactForm.addEventListener('submit', window.sendToWhatsApp);
   }
 });
