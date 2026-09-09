@@ -1,6 +1,29 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/mytecharm-com/",
+      "destination": "/mytecharm-com",
+      "permanent": true
+    },
+    {
+      "source": "/uploadarticle-com/",
+      "destination": "/uploadarticle-com",
+      "permanent": true
+    },
+    {
+      "source": "/droven.io-enterprise-tech-innovation/",
+      "destination": "/droven.io-enterprise-tech-innovation",
+      "permanent": true
+    },
+    {
+      "source": "/is-charfen-co-uk-legit/",
+      "destination": "/is-charfen-co-uk-legit",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/images/(.*)",
