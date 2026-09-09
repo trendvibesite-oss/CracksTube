@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/success100x-com/",
+      "destination": "/success100x-com",
+      "permanent": true
+    },
+    {
       "source": "/mytecharm-com/",
       "destination": "/mytecharm-com",
       "permanent": true
