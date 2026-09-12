@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/webinbound-com/",
+      "destination": "/webinbound-com",
+      "permanent": true
+    },
+    {
       "source": "/444-meaning/",
       "destination": "/444-meaning",
       "permanent": true
