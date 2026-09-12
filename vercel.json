@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/best-wireless-presentation-clickers/",
+      "destination": "/best-wireless-presentation-clickers",
+      "permanent": true
+    },
+    {
       "source": "/wisestudyspot-com/",
       "destination": "/wisestudyspot-com",
       "permanent": true
