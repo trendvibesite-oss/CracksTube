@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/444-meaning/",
+      "destination": "/444-meaning",
+      "permanent": true
+    },
+    {
       "source": "/best-wireless-presentation-clickers/",
       "destination": "/best-wireless-presentation-clickers",
       "permanent": true
