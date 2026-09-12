@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/grammarvista-com-usa/",
+      "destination": "/grammarvista-com-usa",
+      "permanent": true
+    },
+    {
       "source": "/webinbound-com/",
       "destination": "/webinbound-com",
       "permanent": true
