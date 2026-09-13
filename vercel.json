@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/apkek-org/",
+      "destination": "/apkek-org",
+      "permanent": true
+    },
+    {
       "source": "/redeepseek-com/",
       "destination": "/redeepseek-com",
       "permanent": true
