@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/fentomagazine-com-usa/",
+      "destination": "/fentomagazine-com-usa",
+      "permanent": true
+    },
+    {
       "source": "/apkek-org/",
       "destination": "/apkek-org",
       "permanent": true
