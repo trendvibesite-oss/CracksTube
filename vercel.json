@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/startup-booted-financial-modeling/",
+      "destination": "/startup-booted-financial-modeling",
+      "permanent": true
+    },
+    {
       "source": "/fentomagazine-com-usa/",
       "destination": "/fentomagazine-com-usa",
       "permanent": true
