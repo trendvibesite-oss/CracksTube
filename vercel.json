@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/zuhio-keyword-count-checker/",
+      "destination": "/zuhio-keyword-count-checker",
+      "permanent": true
+    },
+    {
       "source": "/startup-booted-financial-modeling/",
       "destination": "/startup-booted-financial-modeling",
       "permanent": true
