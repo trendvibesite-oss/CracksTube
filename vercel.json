@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/target-company-url-research/",
+      "destination": "/target-company-url-research",
+      "permanent": true
+    },
+    {
       "source": "/zuhio-keyword-count-checker/",
       "destination": "/zuhio-keyword-count-checker",
       "permanent": true
