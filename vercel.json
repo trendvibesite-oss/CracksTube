@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/research-dossier-for-target-company/",
+      "destination": "/research-dossier-for-target-company",
+      "permanent": true
+    },
+    {
       "source": "/target-company-url-research/",
       "destination": "/target-company-url-research",
       "permanent": true
