@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/droven-io-ai-for-business/",
+      "destination": "/droven-io-ai-for-business",
+      "permanent": true
+    },
+    {
       "source": "/snapjotz-com/",
       "destination": "/snapjotz-com",
       "permanent": true
