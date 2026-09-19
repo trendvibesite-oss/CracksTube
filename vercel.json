@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/snapjotz-com/",
+      "destination": "/snapjotz-com",
+      "permanent": true
+    },
+    {
       "source": "/research-dossier-for-target-company/",
       "destination": "/research-dossier-for-target-company",
       "permanent": true
