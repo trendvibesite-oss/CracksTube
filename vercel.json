@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/mike-krieger-and-toshihiro-suzuki/",
+      "destination": "/mike-krieger-and-toshihiro-suzuki",
+      "permanent": true
+    },
+    {
       "source": "/foxydroom-com/",
       "destination": "/foxydroom-com",
       "permanent": true
