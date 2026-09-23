@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/sparkpressfusion-com/",
+      "destination": "/sparkpressfusion-com",
+      "permanent": true
+    },
+    {
       "source": "/mike-krieger-and-toshihiro-suzuki/",
       "destination": "/mike-krieger-and-toshihiro-suzuki",
       "permanent": true
