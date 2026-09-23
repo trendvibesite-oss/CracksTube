@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/what-decorators-need-to-know-about-polycarbonate-roofing/",
+      "destination": "/what-decorators-need-to-know-about-polycarbonate-roofing",
+      "permanent": true
+    },
+    {
       "source": "/droven-io-ai-for-business/",
       "destination": "/droven-io-ai-for-business",
       "permanent": true
