@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/foxydroom-com/",
+      "destination": "/foxydroom-com",
+      "permanent": true
+    },
+    {
       "source": "/what-decorators-need-to-know-about-polycarbonate-roofing/",
       "destination": "/what-decorators-need-to-know-about-polycarbonate-roofing",
       "permanent": true
