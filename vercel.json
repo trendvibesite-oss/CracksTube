@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/glaadvoice-com/",
+      "destination": "/glaadvoice-com",
+      "permanent": true
+    },
+    {
       "source": "/sparkpressfusion-com/",
       "destination": "/sparkpressfusion-com",
       "permanent": true
