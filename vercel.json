@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/glossywise-com/",
+      "destination": "/glossywise-com",
+      "permanent": true
+    },
+    {
       "source": "/glaadvoice-com/",
       "destination": "/glaadvoice-com",
       "permanent": true
