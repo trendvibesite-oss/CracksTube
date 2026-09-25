@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ecryptobit-com-wallets/",
+      "destination": "/ecryptobit-com-wallets",
+      "permanent": true
+    },
+    {
       "source": "/techtrendery.com-usa/",
       "destination": "/techtrendery.com-usa",
       "permanent": true
