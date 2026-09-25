@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/techtrendery.com-usa/",
+      "destination": "/techtrendery.com-usa",
+      "permanent": true
+    },
+    {
+      "source": "/techtrendery-com-usa/",
+      "destination": "/techtrendery.com-usa",
+      "permanent": true
+    },
+    {
+      "source": "/techtrendery-com-usa",
+      "destination": "/techtrendery.com-usa",
+      "permanent": true
+    },
+    {
       "source": "/onlyworkmoods-com/",
       "destination": "/onlyworkmoods-com",
       "permanent": true
