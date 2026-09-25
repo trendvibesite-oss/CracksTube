@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/onlyworkmoods-com/",
+      "destination": "/onlyworkmoods-com",
+      "permanent": true
+    },
+    {
       "source": "/glossywise-com/",
       "destination": "/glossywise-com",
       "permanent": true
