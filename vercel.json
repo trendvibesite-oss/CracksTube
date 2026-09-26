@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/tablesproworld-com/",
+      "destination": "/tablesproworld-com",
+      "permanent": true
+    },
+    {
       "source": "/simplifydiggs-com/",
       "destination": "/simplifydiggs-com",
       "permanent": true
