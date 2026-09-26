@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/tylurs-com/",
+      "destination": "/tylurs-com",
+      "permanent": true
+    },
+    {
       "source": "/yonochomp-com/",
       "destination": "/yonochomp-com",
       "permanent": true
