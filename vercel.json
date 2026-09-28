@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/digital-sales-room-software/",
+      "destination": "/digital-sales-room-software",
+      "permanent": true
+    },
+    {
       "source": "/wallpostmedia-com/",
       "destination": "/wallpostmedia-com",
       "permanent": true
