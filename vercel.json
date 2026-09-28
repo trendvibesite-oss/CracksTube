@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/boostelearning-com-certified-digital-academy/",
+      "destination": "/boostelearning-com-certified-digital-academy",
+      "permanent": true
+    },
+    {
       "source": "/digital-sales-room-software/",
       "destination": "/digital-sales-room-software",
       "permanent": true
