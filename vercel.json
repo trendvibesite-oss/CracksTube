@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/unlucid-ai/",
+      "destination": "/unlucid-ai",
+      "permanent": true
+    },
+    {
       "source": "/zenvekeypo4-software-problem/",
       "destination": "/zenvekeypo4-software-problem",
       "permanent": true
