@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/zenvekeypo4-software-problem/",
+      "destination": "/zenvekeypo4-software-problem",
+      "permanent": true
+    },
+    {
       "source": "/boostelearning-com-certified-digital-academy/",
       "destination": "/boostelearning-com-certified-digital-academy",
       "permanent": true
