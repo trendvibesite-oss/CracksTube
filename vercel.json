@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/adswynk-com/",
+      "destination": "/adswynk-com",
+      "permanent": true
+    },
+    {
       "source": "/pixelspinx-com/",
       "destination": "/pixelspinx-com",
       "permanent": true
