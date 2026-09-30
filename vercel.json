@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/mahasevarth/",
+      "destination": "/mahasevarth",
+      "permanent": true
+    },
+    {
       "source": "/unlucid-ai/",
       "destination": "/unlucid-ai",
       "permanent": true
