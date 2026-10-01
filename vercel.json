@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/growth-navigate-startup-tools/",
+      "destination": "/growth-navigate-startup-tools",
+      "permanent": true
+    },
+    {
       "source": "/adswynk-com/",
       "destination": "/adswynk-com",
       "permanent": true
