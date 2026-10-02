@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/geekzilla-io-podcast/",
+      "destination": "/geekzilla-io-podcast",
+      "permanent": true
+    },
+    {
       "source": "/growth-navigate-startup-tools/",
       "destination": "/growth-navigate-startup-tools",
       "permanent": true
