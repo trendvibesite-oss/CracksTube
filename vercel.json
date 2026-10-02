@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/benzynews-com/",
+      "destination": "/benzynews-com",
+      "permanent": true
+    },
+    {
       "source": "/geekzilla-io-podcast/",
       "destination": "/geekzilla-io-podcast",
       "permanent": true
