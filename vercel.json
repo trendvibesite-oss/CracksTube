@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/erikkapost-com/",
+      "destination": "/erikkapost-com",
+      "permanent": true
+    },
+    {
       "source": "/best-data-science-course-with-placement/",
       "destination": "/best-data-science-course-with-placement",
       "permanent": true
