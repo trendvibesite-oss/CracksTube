@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/best-data-science-course-with-placement/",
+      "destination": "/best-data-science-course-with-placement",
+      "permanent": true
+    },
+    {
       "source": "/benzynews-com/",
       "destination": "/benzynews-com",
       "permanent": true
