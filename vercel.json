@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/FintechZoom-io-Nasdaq/",
+      "destination": "/fintechzoom-io-nasdaq",
+      "permanent": true
+    },
+    {
+      "source": "/FintechZoom-io-Nasdaq",
+      "destination": "/fintechzoom-io-nasdaq",
+      "permanent": true
+    },
+    {
+      "source": "/fintechzoom-io-nasdaq/",
+      "destination": "/fintechzoom-io-nasdaq",
+      "permanent": true
+    },
+    {
       "source": "/BackToFrontShow-pricing-plans/",
       "destination": "/backtofrontshow-pricing-plans",
       "permanent": true
