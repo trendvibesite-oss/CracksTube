@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/team-aelftech-com/",
+      "destination": "/team-aelftech-com",
+      "permanent": true
+    },
+    {
       "source": "/erikkapost-com/",
       "destination": "/erikkapost-com",
       "permanent": true
