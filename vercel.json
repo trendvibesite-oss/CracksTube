@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/myresults-att/",
+      "destination": "/myresults-att",
+      "permanent": true
+    },
+    {
+      "source": "/MyResults-ATT/",
+      "destination": "/myresults-att",
+      "permanent": true
+    },
+    {
+      "source": "/MyResults-ATT",
+      "destination": "/myresults-att",
+      "permanent": true
+    },
+    {
       "source": "/mygreenbucks-net-jones/",
       "destination": "/mygreenbucks-net-jones",
       "permanent": true
