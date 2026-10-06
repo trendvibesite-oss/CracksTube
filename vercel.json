@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/BackToFrontShow-pricing-plans/",
+      "destination": "/backtofrontshow-pricing-plans",
+      "permanent": true
+    },
+    {
+      "source": "/BackToFrontShow-pricing-plans",
+      "destination": "/backtofrontshow-pricing-plans",
+      "permanent": true
+    },
+    {
+      "source": "/backtofrontshow-pricing-plans/",
+      "destination": "/backtofrontshow-pricing-plans",
+      "permanent": true
+    },
+    {
       "source": "/team-aelftech-com/",
       "destination": "/team-aelftech-com",
       "permanent": true
