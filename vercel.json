@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/mygreenbucks-net-jones/",
+      "destination": "/mygreenbucks-net-jones",
+      "permanent": true
+    },
+    {
+      "source": "/MyGreenBucks-Net-Jones/",
+      "destination": "/mygreenbucks-net-jones",
+      "permanent": true
+    },
+    {
+      "source": "/MyGreenBucks-Net-Jones",
+      "destination": "/mygreenbucks-net-jones",
+      "permanent": true
+    },
+    {
       "source": "/FintechZoom-io-Nasdaq/",
       "destination": "/fintechzoom-io-nasdaq",
       "permanent": true
