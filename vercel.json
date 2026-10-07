@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/dadeschools-net-login/",
+      "destination": "/dadeschools-net-login",
+      "permanent": true
+    },
+    {
+      "source": "/Dadeschools-Net-Login/",
+      "destination": "/dadeschools-net-login",
+      "permanent": true
+    },
+    {
+      "source": "/Dadeschools-Net-Login",
+      "destination": "/dadeschools-net-login",
+      "permanent": true
+    },
+    {
       "source": "/myresults-att/",
       "destination": "/myresults-att",
       "permanent": true
