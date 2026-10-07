@@ -89,8 +89,18 @@
       "permanent": true
     },
     {
+      "source": "/best-data-science-course-with-placement",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/best-data-science-course-with-placement/",
-      "destination": "/best-data-science-course-with-placement",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-data-science-course-with-placement.html",
+      "destination": "/",
       "permanent": true
     },
     {
