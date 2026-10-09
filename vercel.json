@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/quantumrun-com/",
+      "destination": "/quantumrun-com",
+      "permanent": true
+    },
+    {
+      "source": "/Quantumrun-Com/",
+      "destination": "/quantumrun-com",
+      "permanent": true
+    },
+    {
+      "source": "/Quantumrun-Com",
+      "destination": "/quantumrun-com",
+      "permanent": true
+    },
+    {
       "source": "/kristi-mcbee-net-worth/",
       "destination": "/kristi-mcbee-net-worth",
       "permanent": true
