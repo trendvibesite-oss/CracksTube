@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/growthscribe/",
+      "destination": "/growthscribe",
+      "permanent": true
+    },
+    {
+      "source": "/GrowthScribe/",
+      "destination": "/growthscribe",
+      "permanent": true
+    },
+    {
+      "source": "/GrowthScribe",
+      "destination": "/growthscribe",
+      "permanent": true
+    },
+    {
       "source": "/dadeschools-net-login/",
       "destination": "/dadeschools-net-login",
       "permanent": true
