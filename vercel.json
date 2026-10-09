@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/kristi-mcbee-net-worth/",
+      "destination": "/kristi-mcbee-net-worth",
+      "permanent": true
+    },
+    {
+      "source": "/Kristi-McBee-Net-Worth/",
+      "destination": "/kristi-mcbee-net-worth",
+      "permanent": true
+    },
+    {
+      "source": "/Kristi-McBee-Net-Worth",
+      "destination": "/kristi-mcbee-net-worth",
+      "permanent": true
+    },
+    {
       "source": "/growthscribe/",
       "destination": "/growthscribe",
       "permanent": true
