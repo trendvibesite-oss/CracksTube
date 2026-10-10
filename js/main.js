@@ -48,9 +48,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Table of Contents Toggle Event Listener
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.toc-toggle-btn');
+    if (btn) {
+      e.preventDefault();
+      window.toggleToc(btn);
+    }
+  });
+
   // Backup event listener for contact form
   const contactForm = document.querySelector('#contactForm');
   if (contactForm && typeof window.sendToWhatsApp === 'function') {
     contactForm.addEventListener('submit', window.sendToWhatsApp);
   }
 });
+
+// Global Table of Contents Toggle Function
+window.toggleToc = function(btn) {
+  if (!btn) return;
+  const container = btn.closest('.toc-box');
+  if (!container) return;
+  const list = container.querySelector('.toc-list');
+  if (!list) return;
+  const isCollapsed = list.classList.toggle('collapsed');
+  btn.textContent = isCollapsed ? '[show]' : '[hide]';
+  btn.setAttribute('aria-expanded', !isCollapsed);
+};
