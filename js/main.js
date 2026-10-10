@@ -48,6 +48,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Table of Contents Smooth Scroll Link Handler
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('.toc-box a[href*="#"]');
+    if (link) {
+      const href = link.getAttribute('href');
+      const hashIndex = href.indexOf('#');
+      if (hashIndex !== -1) {
+        const targetId = href.substring(hashIndex + 1);
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          e.preventDefault();
+          targetEl.scrollIntoView({ behavior: 'smooth' });
+          if (history.pushState) {
+            history.pushState(null, '', '#' + targetId);
+          }
+        }
+      }
+    }
+  });
+
   // Backup event listener for contact form
   const contactForm = document.querySelector('#contactForm');
   if (contactForm && typeof window.sendToWhatsApp === 'function') {
