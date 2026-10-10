@@ -904,3 +904,100 @@ h2[id], h3[id], section[id] {
     padding: 1.5rem 1rem;
   }
 }
+
+/* ==========================================================================
+   Author Profile / Bio Card
+   ========================================================================== */
+.author-bio-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  margin: 3rem 0 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.author-bio-box:hover {
+  border-color: rgba(2, 132, 199, 0.35);
+  box-shadow: 0 12px 30px -5px rgba(2, 132, 199, 0.1);
+}
+
+.author-bio-avatar-wrap {
+  flex-shrink: 0;
+}
+
+.author-bio-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 3px solid var(--bg-primary);
+  outline: 2px solid var(--accent-cyan);
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.18);
+}
+
+.author-bio-content {
+  flex: 1;
+}
+
+.author-bio-header {
+  margin-bottom: 0.65rem;
+}
+
+.author-bio-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-cyan);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.author-bio-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.25;
+  margin: 0;
+}
+
+.author-bio-role {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  display: inline-block;
+  margin-top: 0.15rem;
+}
+
+.author-bio-text {
+  font-size: 0.96rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .author-bio-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1.25rem;
+    gap: 1.25rem;
+    margin: 2.25rem 0 1.5rem;
+  }
+  .author-bio-avatar {
+    width: 88px;
+    height: 88px;
+  }
+  .author-bio-name {
+    font-size: 1.25rem;
+  }
+}
+
