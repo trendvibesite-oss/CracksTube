@@ -48,15 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Table of Contents Toggle Event Listener
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.toc-toggle-btn');
-    if (btn) {
-      e.preventDefault();
-      window.toggleToc(btn);
-    }
-  });
-
   // Backup event listener for contact form
   const contactForm = document.querySelector('#contactForm');
   if (contactForm && typeof window.sendToWhatsApp === 'function') {
@@ -65,13 +56,34 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Global Table of Contents Toggle Function
-window.toggleToc = function(btn) {
+window.toggleToc = function(btn, e) {
+  if (e) {
+    if (typeof e.preventDefault === 'function') e.preventDefault();
+    if (typeof e.stopPropagation === 'function') e.stopPropagation();
+  }
   if (!btn) return;
   const container = btn.closest('.toc-box');
   if (!container) return;
   const list = container.querySelector('.toc-list');
   if (!list) return;
-  const isCollapsed = list.classList.toggle('collapsed');
-  btn.textContent = isCollapsed ? '[show]' : '[hide]';
-  btn.setAttribute('aria-expanded', !isCollapsed);
+
+  const isExpanded = container.classList.toggle('expanded');
+  btn.textContent = isExpanded ? '[hide]' : '[show]';
+  btn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+
+  if (isExpanded) {
+    list.style.maxHeight = (list.scrollHeight + 50) + 'px';
+    list.style.opacity = '1';
+  } else {
+    list.style.maxHeight = '0px';
+    list.style.opacity = '0';
+  }
+};
+
+window.toggleTocHeader = function(header, e) {
+  if (e && e.target.closest('.toc-toggle-btn')) return;
+  const btn = header.querySelector('.toc-toggle-btn');
+  if (btn) {
+    window.toggleToc(btn, e);
+  }
 };

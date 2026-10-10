@@ -125,9 +125,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -184,7 +184,7 @@
 </div>
 
 
-        <h2 id="what-is-modcityusacom">What Is ModCityUSA.com?</h2>
+<h2 id="what-is-modcityusacom">What Is ModCityUSA.com?</h2>
         <p>
           At its core, ModCityUSA.com sits inside a category of the internet built around modification — or "modding" — culture. That's the practice of altering, customizing, or extending an existing piece of software, game, or digital product to do something it didn't originally do, or to look and feel different than it did out of the box.
         </p>

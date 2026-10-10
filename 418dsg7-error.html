@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -417,7 +417,7 @@
 </div>
 
 
-        <p>
+<p>
           Some websites describe 418dsg7 as a new software product, while others connect it with Python, backend systems, automation, APIs, or application failures. However, these descriptions do not point to one clearly verified product or official specification. In fact, current discussions about <strong>418dsg7 Python</strong> also acknowledge that the identifier could be a private module, internal project name, custom script, or simply a misidentified value.
         </p>
 

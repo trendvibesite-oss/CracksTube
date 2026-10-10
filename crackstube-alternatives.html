@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -377,7 +377,7 @@
 </div>
 
 
-        <p>
+<p>
           There is also a Crackstube.com publishing identity. Current third-party web data describes the domain as a digital media platform publishing articles across areas such as Technology, Finance, Education and Business, while also highlighting guest-posting opportunities. The domain has HTTPS enabled and has a registration record dating back to October 2015.
         </p>
 

@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -547,7 +547,7 @@
 </div>
 
 
-        <p>
+<p>
           <strong>VocalNewsMedia.com is an active online publishing website that currently presents a broad mix of news-style, informational, business, technology, lifestyle, and general-interest articles.</strong> Its homepage does not look like the website of a conventional newspaper focused on one geographic area or beat. Instead, its recent content covers a surprisingly wide range of subjects, from home services and business operations to technology, shipping, lifestyle, and other informational topics.
         </p>
 

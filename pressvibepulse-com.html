@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -537,7 +537,7 @@
 </div>
 
 
-        <p>
+<p>
           That broad approach is useful for readers who like discovering different subjects in one place. At the same time, it creates an important question: should every article published there be treated as authoritative? Not necessarily. As with any general-interest website, the quality, sourcing, author expertise, and publication date of an individual article matter.
         </p>
 

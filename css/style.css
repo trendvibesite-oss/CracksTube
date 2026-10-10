@@ -696,13 +696,14 @@ a:hover {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 1.5rem 1.75rem;
+  padding: 1.25rem 1.75rem;
   margin: 2.25rem 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
   width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
   word-break: break-word;
+  transition: all 0.3s ease;
 }
 
 .toc-header {
@@ -710,7 +711,13 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toc-box.expanded .toc-header {
+  margin-bottom: 0.85rem;
 }
 
 .toc-title {
@@ -737,11 +744,14 @@ a:hover {
 }
 
 .toc-list {
-  transition: opacity 0.25s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
 }
 
-.toc-list.collapsed {
-  display: none;
+.toc-box.expanded .toc-list {
+  opacity: 1;
 }
 
 .toc-nav, .toc-subnav {

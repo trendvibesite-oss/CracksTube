@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -353,7 +353,7 @@
 </div>
 
 
-        <p>
+<p>
           That does not automatically make the site good or bad. A general-interest blog can be useful for discovering information, getting a quick explanation, or finding ideas. At the same time, broad coverage means readers should be sensible about how they evaluate articles, particularly when the subject involves health, finance, law, investment, or other high-stakes decisions.
         </p>
 

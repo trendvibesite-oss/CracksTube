@@ -126,9 +126,9 @@
 
 <!-- Table of Contents -->
 <div class="toc-box" id="table-of-contents">
-  <div class="toc-header">
+  <div class="toc-header" onclick="toggleTocHeader(this, event)">
     <span class="toc-title">Table of contents</span>
-    <button type="button" class="toc-toggle-btn" aria-expanded="true" aria-controls="toc-list" onclick="toggleToc(this)">[hide]</button>
+    <button type="button" class="toc-toggle-btn" aria-expanded="false" aria-controls="toc-list" onclick="toggleToc(this, event)">[show]</button>
   </div>
   <div class="toc-list" id="toc-list">
     <ul class="toc-nav">
@@ -371,7 +371,7 @@
 </div>
 
 
-        <p>
+<p>
           The most useful way to understand clickfor.net today is as an online content and guest-blogging website where readers can discover articles while writers and businesses can explore opportunities to publish content. The site's public title identifies it as a "Write For US | News & Article Blogging | Guest Blogging Site," which gives a much clearer indication of its publishing model than generic descriptions of it as simply a technology or lifestyle blog.
         </p>
 
