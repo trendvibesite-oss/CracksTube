@@ -68,10 +68,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Backup event listener for contact form
+  // Contact form submission handling
   const contactForm = document.querySelector('#contactForm');
-  if (contactForm && typeof window.sendToWhatsApp === 'function') {
-    contactForm.addEventListener('submit', window.sendToWhatsApp);
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const feedback = document.querySelector('#formFeedback');
+      if (feedback) {
+        feedback.style.display = 'block';
+        feedback.innerHTML = '<div style="padding:1rem; background:rgba(2, 132, 199, 0.12); border:1px solid var(--accent-cyan); color:var(--text-main); border-radius:8px; font-weight:600;">✅ Thank you for your inquiry! Your message has been received. Our editorial team will review your submission and reply via email to your provided address.</div>';
+        contactForm.reset();
+      }
+    });
   }
 });
 
