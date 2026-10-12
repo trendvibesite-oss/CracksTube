@@ -4,6 +4,36 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/write-for-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/write-for-us/",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/write-for-us.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/Write-For-Us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/Write-For-Us/",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/Write-For-Us.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
       "source": "/quantumrun-com/",
       "destination": "/quantumrun-com",
       "permanent": true
