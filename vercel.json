@@ -164,21 +164,6 @@
       "permanent": true
     },
     {
-      "source": "/best-data-science-course-with-placement",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/best-data-science-course-with-placement/",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/best-data-science-course-with-placement.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/benzynews-com/",
       "destination": "/benzynews-com",
       "permanent": true
@@ -406,6 +391,11 @@
     {
       "source": "/is-charfen-co-uk-legit/",
       "destination": "/is-charfen-co-uk-legit",
+      "permanent": true
+    },
+    {
+      "source": "/best-data-science-course-with-placement/",
+      "destination": "/best-data-science-course-with-placement",
       "permanent": true
     }
   ],
