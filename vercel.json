@@ -397,6 +397,26 @@
       "source": "/best-data-science-course-with-placement/",
       "destination": "/best-data-science-course-with-placement",
       "permanent": true
+    },
+    {
+      "source": "/amazon-vine-login/",
+      "destination": "/amazon-vine-login",
+      "permanent": true
+    },
+    {
+      "source": "/troozer-com/",
+      "destination": "/troozer-com",
+      "permanent": true
+    },
+    {
+      "source": "/5starsstocks-com/",
+      "destination": "/5starsstocks-com",
+      "permanent": true
+    },
+    {
+      "source": "/coyyn-com-business/",
+      "destination": "/coyyn-com-business",
+      "permanent": true
     }
   ],
   "headers": [
