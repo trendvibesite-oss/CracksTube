@@ -417,6 +417,11 @@
       "source": "/coyyn-com-business/",
       "destination": "/coyyn-com-business",
       "permanent": true
+    },
+    {
+      "source": "/jack-doherty-net-worth/",
+      "destination": "/jack-doherty-net-worth",
+      "permanent": true
     }
   ],
   "headers": [
