@@ -432,6 +432,11 @@
       "source": "/pushwiki-com/",
       "destination": "/pushwiki-com",
       "permanent": true
+    },
+    {
+      "source": "/fintechzoom-io-courses/",
+      "destination": "/fintechzoom-io-courses",
+      "permanent": true
     }
   ],
   "headers": [
