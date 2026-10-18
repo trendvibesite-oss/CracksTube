@@ -427,6 +427,11 @@
       "source": "/test-com-pricing-enterprise-plans/",
       "destination": "/test-com-pricing-enterprise-plans",
       "permanent": true
+    },
+    {
+      "source": "/pushwiki-com/",
+      "destination": "/pushwiki-com",
+      "permanent": true
     }
   ],
   "headers": [
