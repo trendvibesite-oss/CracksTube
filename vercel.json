@@ -422,6 +422,11 @@
       "source": "/jack-doherty-net-worth/",
       "destination": "/jack-doherty-net-worth",
       "permanent": true
+    },
+    {
+      "source": "/test-com-pricing-enterprise-plans/",
+      "destination": "/test-com-pricing-enterprise-plans",
+      "permanent": true
     }
   ],
   "headers": [
