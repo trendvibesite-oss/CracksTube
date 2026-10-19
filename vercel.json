@@ -437,6 +437,11 @@
       "source": "/fintechzoom-io-courses/",
       "destination": "/fintechzoom-io-courses",
       "permanent": true
+    },
+    {
+      "source": "/seo-agency-in-usa-glorvix/",
+      "destination": "/seo-agency-in-usa-glorvix",
+      "permanent": true
     }
   ],
   "headers": [
