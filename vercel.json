@@ -442,6 +442,11 @@
       "source": "/seo-agency-in-usa-glorvix/",
       "destination": "/seo-agency-in-usa-glorvix",
       "permanent": true
+    },
+    {
+      "source": "/almawadahit-com/",
+      "destination": "/almawadahit-com",
+      "permanent": true
     }
   ],
   "headers": [
