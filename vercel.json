@@ -447,6 +447,11 @@
       "source": "/almawadahit-com/",
       "destination": "/almawadahit-com",
       "permanent": true
+    },
+    {
+      "source": "/crypings-com/",
+      "destination": "/crypings-com",
+      "permanent": true
     }
   ],
   "headers": [
