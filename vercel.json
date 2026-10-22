@@ -452,6 +452,11 @@
       "source": "/crypings-com/",
       "destination": "/crypings-com",
       "permanent": true
+    },
+    {
+      "source": "/icostamp-com/",
+      "destination": "/icostamp-com",
+      "permanent": true
     }
   ],
   "headers": [
