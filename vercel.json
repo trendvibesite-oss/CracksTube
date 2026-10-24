@@ -457,6 +457,11 @@
       "source": "/icostamp-com/",
       "destination": "/icostamp-com",
       "permanent": true
+    },
+    {
+      "source": "/yonopress/",
+      "destination": "/yonopress",
+      "permanent": true
     }
   ],
   "headers": [
