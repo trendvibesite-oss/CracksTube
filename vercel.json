@@ -467,6 +467,11 @@
       "source": "/blessingtide-com/",
       "destination": "/blessingtide-com",
       "permanent": true
+    },
+    {
+      "source": "/uploadwords-usa/",
+      "destination": "/uploadwords-usa",
+      "permanent": true
     }
   ],
   "headers": [
