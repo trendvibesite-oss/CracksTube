@@ -462,6 +462,11 @@
       "source": "/yonopress/",
       "destination": "/yonopress",
       "permanent": true
+    },
+    {
+      "source": "/blessingtide-com/",
+      "destination": "/blessingtide-com",
+      "permanent": true
     }
   ],
   "headers": [
