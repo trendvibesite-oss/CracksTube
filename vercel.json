@@ -472,6 +472,11 @@
       "source": "/uploadwords-usa/",
       "destination": "/uploadwords-usa",
       "permanent": true
+    },
+    {
+      "source": "/tycoon-club/",
+      "destination": "/tycoon-club",
+      "permanent": true
     }
   ],
   "headers": [
