@@ -482,6 +482,11 @@
       "source": "/snapchatplanetsorders-com/",
       "destination": "/snapchatplanetsorders-com",
       "permanent": true
+    },
+    {
+      "source": "/ai-transformation-is-a-problem-of-governance/",
+      "destination": "/ai-transformation-is-a-problem-of-governance",
+      "permanent": true
     }
   ],
   "headers": [
