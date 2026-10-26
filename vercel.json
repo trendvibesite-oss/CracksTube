@@ -477,6 +477,11 @@
       "source": "/tycoon-club/",
       "destination": "/tycoon-club",
       "permanent": true
+    },
+    {
+      "source": "/snapchatplanetsorders-com/",
+      "destination": "/snapchatplanetsorders-com",
+      "permanent": true
     }
   ],
   "headers": [
