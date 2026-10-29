@@ -487,6 +487,21 @@
       "source": "/ai-transformation-is-a-problem-of-governance/",
       "destination": "/ai-transformation-is-a-problem-of-governance",
       "permanent": true
+    },
+    {
+      "source": "/3-ways-to-manage-work-stress-without-letting-it-affect-your-performance/",
+      "destination": "/3-ways-to-manage-work-stress-without-letting-it-affect-your-performance",
+      "permanent": true
+    },
+    {
+      "source": "/3-Ways-to-Manage-Work-Stress-Without-Letting-It-Affect-Your-Performance",
+      "destination": "/3-ways-to-manage-work-stress-without-letting-it-affect-your-performance",
+      "permanent": true
+    },
+    {
+      "source": "/3-Ways-to-Manage-Work-Stress-Without-Letting-It-Affect-Your-Performance/",
+      "destination": "/3-ways-to-manage-work-stress-without-letting-it-affect-your-performance",
+      "permanent": true
     }
   ],
   "headers": [
