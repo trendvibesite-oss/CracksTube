@@ -527,6 +527,31 @@
       "source": "/GoralBlue-Com/",
       "destination": "/goralblue-com",
       "permanent": true
+    },
+    {
+      "source": "/afextop-com/",
+      "destination": "/afextop-com",
+      "permanent": true
+    },
+    {
+      "source": "/Afextop-Com",
+      "destination": "/afextop-com",
+      "permanent": true
+    },
+    {
+      "source": "/Afextop-Com/",
+      "destination": "/afextop-com",
+      "permanent": true
+    },
+    {
+      "source": "/AfexTop-Com",
+      "destination": "/afextop-com",
+      "permanent": true
+    },
+    {
+      "source": "/AfexTop-Com/",
+      "destination": "/afextop-com",
+      "permanent": true
     }
   ],
   "headers": [
