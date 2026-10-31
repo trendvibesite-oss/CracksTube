@@ -502,6 +502,31 @@
       "source": "/3-Ways-to-Manage-Work-Stress-Without-Letting-It-Affect-Your-Performance/",
       "destination": "/3-ways-to-manage-work-stress-without-letting-it-affect-your-performance",
       "permanent": true
+    },
+    {
+      "source": "/goralblue-com/",
+      "destination": "/goralblue-com",
+      "permanent": true
+    },
+    {
+      "source": "/Goralblue-Com",
+      "destination": "/goralblue-com",
+      "permanent": true
+    },
+    {
+      "source": "/Goralblue-Com/",
+      "destination": "/goralblue-com",
+      "permanent": true
+    },
+    {
+      "source": "/GoralBlue-Com",
+      "destination": "/goralblue-com",
+      "permanent": true
+    },
+    {
+      "source": "/GoralBlue-Com/",
+      "destination": "/goralblue-com",
+      "permanent": true
     }
   ],
   "headers": [
