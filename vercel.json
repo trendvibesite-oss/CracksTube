@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/blog-severedbytes-net/",
+      "destination": "/blog-severedbytes-net",
+      "permanent": true
+    },
+    {
+      "source": "/Blog-Severedbytes-Net",
+      "destination": "/blog-severedbytes-net",
+      "permanent": true
+    },
+    {
+      "source": "/Blog-Severedbytes-Net/",
+      "destination": "/blog-severedbytes-net",
+      "permanent": true
+    },
+    {
+      "source": "/Blog-severedbytes-net",
+      "destination": "/blog-severedbytes-net",
+      "permanent": true
+    },
+    {
+      "source": "/Blog-severedbytes-net/",
+      "destination": "/blog-severedbytes-net",
+      "permanent": true
+    },
+    {
       "source": "/write-for-us",
       "destination": "/contact",
       "permanent": true
