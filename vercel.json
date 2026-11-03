@@ -4,6 +4,51 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/coolkingzone.com/",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/coolkingzone-com",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/coolkingzone-com/",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/Coolkingzone.com",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/Coolkingzone.com/",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/CoolKingZone.com",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/CoolKingZone.com/",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/Coolkingzone-com",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
+      "source": "/CoolKingZone-com",
+      "destination": "/coolkingzone.com",
+      "permanent": true
+    },
+    {
       "source": "/blog-severedbytes-net/",
       "destination": "/blog-severedbytes-net",
       "permanent": true
