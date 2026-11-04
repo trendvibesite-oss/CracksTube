@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/3-small-habits-that-help-high-performers-protect-their-energy-levels/",
+      "destination": "/3-small-habits-that-help-high-performers-protect-their-energy-levels",
+      "permanent": true
+    },
+    {
+      "source": "/3-Small-Habits-That-Help-High-Performers-Protect-Their-Energy-Levels",
+      "destination": "/3-small-habits-that-help-high-performers-protect-their-energy-levels",
+      "permanent": true
+    },
+    {
+      "source": "/3-Small-Habits-That-Help-High-Performers-Protect-Their-Energy-Levels/",
+      "destination": "/3-small-habits-that-help-high-performers-protect-their-energy-levels",
+      "permanent": true
+    },
+    {
       "source": "/coolkingzone.com/",
       "destination": "/coolkingzone.com",
       "permanent": true
