@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/about-aelftech-com/",
+      "destination": "/about-aelftech-com",
+      "permanent": true
+    },
+    {
+      "source": "/About-aelftech-com",
+      "destination": "/about-aelftech-com",
+      "permanent": true
+    },
+    {
+      "source": "/About-aelftech-com/",
+      "destination": "/about-aelftech-com",
+      "permanent": true
+    },
+    {
+      "source": "/About-Aelftech-Com",
+      "destination": "/about-aelftech-com",
+      "permanent": true
+    },
+    {
+      "source": "/About-Aelftech-Com/",
+      "destination": "/about-aelftech-com",
+      "permanent": true
+    },
+    {
       "source": "/3-small-habits-that-help-high-performers-protect-their-energy-levels/",
       "destination": "/3-small-habits-that-help-high-performers-protect-their-energy-levels",
       "permanent": true
