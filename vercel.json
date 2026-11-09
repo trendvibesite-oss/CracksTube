@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/roblox-condo/",
+      "destination": "/roblox-condo",
+      "permanent": true
+    },
+    {
+      "source": "/Roblox-condo",
+      "destination": "/roblox-condo",
+      "permanent": true
+    },
+    {
+      "source": "/Roblox-condo/",
+      "destination": "/roblox-condo",
+      "permanent": true
+    },
+    {
+      "source": "/Roblox-Condo",
+      "destination": "/roblox-condo",
+      "permanent": true
+    },
+    {
+      "source": "/Roblox-Condo/",
+      "destination": "/roblox-condo",
+      "permanent": true
+    },
+    {
       "source": "/about-aelftech-com/",
       "destination": "/about-aelftech-com",
       "permanent": true
