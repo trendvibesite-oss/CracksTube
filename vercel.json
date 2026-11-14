@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/Wizzydigital-org",
+      "destination": "/wizzydigital-org",
+      "permanent": true
+    },
+    {
+      "source": "/Wizzydigital-org/",
+      "destination": "/wizzydigital-org",
+      "permanent": true
+    },
+    {
+      "source": "/wizzydigital-org/",
+      "destination": "/wizzydigital-org",
+      "permanent": true
+    },
+    {
+      "source": "/WizzyDigital-org",
+      "destination": "/wizzydigital-org",
+      "permanent": true
+    },
+    {
+      "source": "/WizzyDigital-org/",
+      "destination": "/wizzydigital-org",
+      "permanent": true
+    },
+    {
       "source": "/globalunpaid-com/",
       "destination": "/globalunpaid-com",
       "permanent": true
