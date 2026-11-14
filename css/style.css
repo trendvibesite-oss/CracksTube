@@ -750,8 +750,13 @@ a:hover {
   transition: max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
 }
 
-.toc-box.expanded .toc-list {
+.toc-box.expanded .toc-list,
+.toc-list.active {
   opacity: 1;
+}
+
+.toc-list.active {
+  max-height: 5000px;
 }
 
 .toc-nav, .toc-subnav {

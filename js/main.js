@@ -96,6 +96,7 @@ window.toggleToc = function(btn, e) {
   if (!list) return;
 
   const isExpanded = container.classList.toggle('expanded');
+  list.classList.toggle('active', isExpanded);
   btn.textContent = isExpanded ? '[hide]' : '[show]';
   btn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
 

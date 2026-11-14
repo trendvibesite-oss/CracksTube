@@ -676,20 +676,5 @@
 
   <!-- Scripts -->
   <script src="/js/main.js"></script>
-  <script>
-    function toggleToc(btn, event) {
-      if (event) event.stopPropagation();
-      const list = document.getElementById('toc-list');
-      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', !isExpanded);
-      btn.textContent = isExpanded ? '[show]' : '[hide]';
-      list.classList.toggle('active', !isExpanded);
-    }
-    function toggleTocHeader(header, event) {
-      if (event.target.closest('.toc-toggle-btn')) return;
-      const btn = header.querySelector('.toc-toggle-btn');
-      if (btn) toggleToc(btn, event);
-    }
-  </script>
 </body>
 </html>
