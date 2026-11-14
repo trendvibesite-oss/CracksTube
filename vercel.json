@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/globalunpaid-com/",
+      "destination": "/globalunpaid-com",
+      "permanent": true
+    },
+    {
+      "source": "/Globalunpaid-com",
+      "destination": "/globalunpaid-com",
+      "permanent": true
+    },
+    {
+      "source": "/Globalunpaid-com/",
+      "destination": "/globalunpaid-com",
+      "permanent": true
+    },
+    {
+      "source": "/GlobalUnpaid-com",
+      "destination": "/globalunpaid-com",
+      "permanent": true
+    },
+    {
+      "source": "/GlobalUnpaid-com/",
+      "destination": "/globalunpaid-com",
+      "permanent": true
+    },
+    {
       "source": "/tophillsport-com/",
       "destination": "/tophillsport-com",
       "permanent": true
