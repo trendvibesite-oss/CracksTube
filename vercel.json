@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/tophillsport-com/",
+      "destination": "/tophillsport-com",
+      "permanent": true
+    },
+    {
+      "source": "/Tophillsport-com",
+      "destination": "/tophillsport-com",
+      "permanent": true
+    },
+    {
+      "source": "/Tophillsport-com/",
+      "destination": "/tophillsport-com",
+      "permanent": true
+    },
+    {
+      "source": "/TopHillSport-com",
+      "destination": "/tophillsport-com",
+      "permanent": true
+    },
+    {
+      "source": "/TopHillSport-com/",
+      "destination": "/tophillsport-com",
+      "permanent": true
+    },
+    {
       "source": "/roblox-condo/",
       "destination": "/roblox-condo",
       "permanent": true
