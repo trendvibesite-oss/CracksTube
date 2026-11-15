@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/analyzingmarket-com/",
+      "destination": "/analyzingmarket-com",
+      "permanent": true
+    },
+    {
+      "source": "/Analyzingmarket-com",
+      "destination": "/analyzingmarket-com",
+      "permanent": true
+    },
+    {
+      "source": "/Analyzingmarket-com/",
+      "destination": "/analyzingmarket-com",
+      "permanent": true
+    },
+    {
+      "source": "/AnalyzingMarket-com",
+      "destination": "/analyzingmarket-com",
+      "permanent": true
+    },
+    {
+      "source": "/AnalyzingMarket-com/",
+      "destination": "/analyzingmarket-com",
+      "permanent": true
+    },
+    {
       "source": "/Wizzydigital-org",
       "destination": "/wizzydigital-org",
       "permanent": true
