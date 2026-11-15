@@ -4,6 +4,31 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/claritycheck/",
+      "destination": "/claritycheck",
+      "permanent": true
+    },
+    {
+      "source": "/Claritycheck",
+      "destination": "/claritycheck",
+      "permanent": true
+    },
+    {
+      "source": "/Claritycheck/",
+      "destination": "/claritycheck",
+      "permanent": true
+    },
+    {
+      "source": "/ClarityCheck",
+      "destination": "/claritycheck",
+      "permanent": true
+    },
+    {
+      "source": "/ClarityCheck/",
+      "destination": "/claritycheck",
+      "permanent": true
+    },
+    {
       "source": "/analyzingmarket-com/",
       "destination": "/analyzingmarket-com",
       "permanent": true
